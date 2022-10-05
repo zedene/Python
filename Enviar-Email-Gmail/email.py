@@ -21,7 +21,7 @@ msg = EmailMessage()
 msg['Subject'] = (f'ASSUNTO DO EMAIL {data}')
 msg['From'] = 'SEU NOME'
 msg['To'] = 'DESTINATARIO'
-msg.set_content(f'DIGITE AQUI A MENSAGEM')
+msg.set_content('DIGITE AQUI A MENSAGEM')
 
 #Enviar o e-mail
 with smtplib.SMTP_SSL('smtp.gmail.com',465) as smtp:
