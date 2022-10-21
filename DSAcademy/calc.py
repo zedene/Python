@@ -22,4 +22,6 @@ elif opcao == 3:
     print(f'O resultado da multiplicação de [{num1} * {num2}] = {num1 * num2}')
 elif opcao == 4:
     print(f'O resultado da divisão de [{num1} / {num2}] = {num1 / num2}')
+else:
+    print('Opção Inválida!')
 print('Volte Sempre!')
